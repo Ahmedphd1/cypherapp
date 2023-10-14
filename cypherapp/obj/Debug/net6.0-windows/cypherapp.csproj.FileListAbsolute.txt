@@ -1,0 +1,17 @@
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.csproj.AssemblyReference.cache
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.Form1.resources
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.csproj.GenerateResource.cache
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.AssemblyInfoInputs.cache
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.AssemblyInfo.cs
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\bin\Debug\net6.0-windows\cypherapp.exe
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\bin\Debug\net6.0-windows\cypherapp.deps.json
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\bin\Debug\net6.0-windows\cypherapp.runtimeconfig.json
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\bin\Debug\net6.0-windows\cypherapp.dll
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\bin\Debug\net6.0-windows\cypherapp.pdb
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.dll
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\refint\cypherapp.dll
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.pdb
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\cypherapp.genruntimeconfig.cache
+C:\Users\Ahmed\Desktop\noteeeapp\cypherapp\cypherapp\obj\Debug\net6.0-windows\ref\cypherapp.dll
