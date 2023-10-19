@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1l9VcKiL4nc2yoCK4bvkkjt8psNcmM0rgYzDRWhpNBKiQRl5NkqsZY9yCjsmwt3+ATmPCjgPooLHFGZ8boZRPA==",
+  "dgSpecHash": "o0rqd5h+aSSJhc69M+wX9Zh0rjomk54/UH54p/XvB7eNSY1dgiwCsdcoq2rZaBmtCT3hNx1SHPcYYLQm7gSpyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ahmed\\Desktop\\noteeeapp\\cypherapp\\cypherapp\\cypherapp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ahmed\\.nuget\\packages\\sevenzip\\19.0.0\\sevenzip.19.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

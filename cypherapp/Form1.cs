@@ -18,24 +18,12 @@ namespace cypherapp
         {
             this.BackColor = Color.FromArgb(40, 40, 40); // Dark background color
 
-            // Styling for labels
-            label1.ForeColor = Color.White;
-            label1.Font = new Font("Arial", 16, FontStyle.Bold);
-
-            label2.ForeColor = Color.White;
-            label2.Font = new Font("Arial", 16, FontStyle.Bold);
-
-            label3.ForeColor = Color.White;
-            label4.ForeColor = Color.White;
-
             // Styling for buttons
             encbutton.BackColor = Color.FromArgb(65, 105, 225); // Royal Blue
             encbutton.ForeColor = Color.White;
-            encbutton.Font = new Font("Arial", 12, FontStyle.Bold);
 
             decbutton.BackColor = Color.FromArgb(65, 105, 225);
             decbutton.ForeColor = Color.White;
-            decbutton.Font = new Font("Arial", 12, FontStyle.Bold);
 
             // Styling for textboxes
             enctextbox.BackColor = Color.FromArgb(20, 20, 20); // Dark Gray
@@ -45,6 +33,13 @@ namespace cypherapp
             dectextbox.BackColor = Color.FromArgb(20, 20, 20);
             dectextbox.ForeColor = Color.White;
             dectextbox.BorderStyle = BorderStyle.None;
+
+
+            // Styling for labels
+            label1.ForeColor = Color.White;
+            label2.ForeColor = Color.White;
+            label3.ForeColor = Color.White;
+            label4.ForeColor = Color.White;
         }
 
         private void encbutton_Click(object sender, EventArgs e)
@@ -53,7 +48,8 @@ namespace cypherapp
             if (mystr == "")
             {
                 this.enctextbox.Text = "ERROR.. TEXT CANNOT BE EMPTY";
-            } else
+            }
+            else
             {
                 this.enctextbox.Text = mystr;
             }

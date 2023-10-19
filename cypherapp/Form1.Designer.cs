@@ -1,4 +1,6 @@
-﻿namespace cypherapp
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace cypherapp
 {
     partial class Form1
     {
@@ -41,48 +43,48 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(317, 9);
+            label1.Location = new Point(308, 69);
             label1.Name = "label1";
-            label1.Size = new Size(57, 15);
+            label1.Size = new Size(46, 15);
             label1.TabIndex = 0;
-            label1.Text = "ENCRYPT";
+            label1.Text = "تشفسير";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(299, 225);
+            label2.Location = new Point(308, 235);
             label2.Name = "label2";
-            label2.Size = new Size(56, 15);
+            label2.Size = new Size(62, 15);
             label2.TabIndex = 1;
-            label2.Text = "DECRYPT";
+            label2.Text = "فك التشفير";
             // 
             // encbutton
             // 
-            encbutton.Location = new Point(299, 139);
+            encbutton.Location = new Point(299, 180);
             encbutton.Name = "encbutton";
             encbutton.Size = new Size(75, 23);
             encbutton.TabIndex = 3;
-            encbutton.Text = "ENCRYPT";
+            encbutton.Text = "تشفسير";
             encbutton.UseVisualStyleBackColor = true;
             encbutton.Click += encbutton_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(171, 66);
+            label3.Location = new Point(171, 118);
             label3.Name = "label3";
-            label3.Size = new Size(57, 15);
+            label3.Size = new Size(61, 15);
             label3.TabIndex = 4;
-            label3.Text = "Enter text";
+            label3.Text = "أدخل النص";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(171, 294);
+            label4.Location = new Point(133, 296);
             label4.Name = "label4";
-            label4.Size = new Size(57, 15);
+            label4.Size = new Size(99, 15);
             label4.TabIndex = 5;
-            label4.Text = "Enter text";
+            label4.Text = "أدخل النص المشفر";
             // 
             // dectextbox
             // 
@@ -91,6 +93,7 @@
             dectextbox.Name = "dectextbox";
             dectextbox.Size = new Size(225, 87);
             dectextbox.TabIndex = 6;
+            dectextbox.MaxLength = Int32.MaxValue;
             // 
             // decbutton
             // 
@@ -98,17 +101,18 @@
             decbutton.Name = "decbutton";
             decbutton.Size = new Size(75, 23);
             decbutton.TabIndex = 7;
-            decbutton.Text = "Decrypt";
+            decbutton.Text = "فك التشفير";
             decbutton.UseVisualStyleBackColor = true;
             decbutton.Click += decbutton_Click;
             // 
             // enctextbox
             // 
-            enctextbox.Location = new Point(234, 27);
+            enctextbox.Location = new Point(234, 87);
             enctextbox.Multiline = true;
             enctextbox.Name = "enctextbox";
             enctextbox.Size = new Size(225, 87);
             enctextbox.TabIndex = 8;
+            enctextbox.MaxLength = Int32.MaxValue;
             // 
             // Form1
             // 
@@ -124,7 +128,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "شعبة التحري تشفير";
             ResumeLayout(false);
             PerformLayout();
         }

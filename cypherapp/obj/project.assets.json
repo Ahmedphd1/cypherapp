@@ -1,11 +1,39 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "SevenZip/19.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SevenZip/19.0.0": {
+      "sha512": "+Eeb/uvC0REvMlG1auBqlBMiFiPZs+WizlLroHPSKtBh/V7NR/qOocgk+/7S0lNzciYsurMCeJzUL7LYIqVnWw==",
+      "type": "package",
+      "path": "sevenzip/19.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/SevenZip.dll",
+        "lib/netstandard2.0/SevenZip.dll",
+        "pack-package.cmd",
+        "publish-package.cmd",
+        "sevenzip.19.0.0.nupkg.sha512",
+        "sevenzip.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "SevenZip >= 19.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ahmed\\.nuget\\packages\\": {}
@@ -45,6 +73,12 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "SevenZip": {
+            "target": "Package",
+            "version": "[19.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
