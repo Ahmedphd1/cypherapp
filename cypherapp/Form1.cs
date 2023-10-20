@@ -93,14 +93,13 @@ namespace cypherapp
             }
         }
 
-        private String dectext()
+        private string dectext()
         {
             if (this.dectextbox.Text == "")
             {
                 return "";
             }
 
-            //Decrypt
             byte[] bytes = Convert.FromBase64String(this.dectextbox.Text);
             SymmetricAlgorithm crypt = Aes.Create();
             HashAlgorithm hash = MD5.Create();
@@ -109,14 +108,24 @@ namespace cypherapp
 
             using (MemoryStream memoryStream = new MemoryStream(bytes))
             {
-                using (CryptoStream cryptoStream =
-                   new CryptoStream(memoryStream, crypt.CreateDecryptor(), CryptoStreamMode.Read))
+                using (CryptoStream cryptoStream = new CryptoStream(memoryStream, crypt.CreateDecryptor(), CryptoStreamMode.Read))
                 {
-                    byte[] decryptedBytes = new byte[bytes.Length];
-                    cryptoStream.Read(decryptedBytes, 0, decryptedBytes.Length);
+                    // Determine the actual length of the decrypted data
+                    int bytesRead;
+                    List<byte> decryptedData = new List<byte>();
+                    byte[] buffer = new byte[1024]; // You can adjust the buffer size
+
+                    while ((bytesRead = cryptoStream.Read(buffer, 0, buffer.Length)) > 0)
+                    {
+                        for (int i = 0; i < bytesRead; i++)
+                        {
+                            decryptedData.Add(buffer[i]);
+                        }
+                    }
+
                     this.dectextbox.Text = "";
 
-                    return Encoding.Unicode.GetString(decryptedBytes);
+                    return Encoding.Unicode.GetString(decryptedData.ToArray());
                 }
             }
         }
